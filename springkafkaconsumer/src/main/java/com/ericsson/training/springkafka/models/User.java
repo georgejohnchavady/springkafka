@@ -13,6 +13,9 @@ public class User {
         this.salary = salary;
     }
 
+    public User() {
+    }
+
     @Override
     public String toString() {
         return "User{" +
